@@ -1,0 +1,40 @@
+   
+body {
+    background-color:#FFFFFF ;
+    color: #434455;
+}
+/* Скидання маркеру списку */
+.list {
+    list-style:none ;
+}
+/* навігація */
+.accent  {
+    color: #4D5AE5;
+}
+
+.site-nav .link  {
+    color: #2E2F42;   
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #404BBF
+}
+ .letter {
+    color: #434455;
+}
+.site-auth .letter:hover,
+.site-auth .letter:focus {
+    color: #404BBF
+}
+
+/* hero */
+.section-title{
+
+}
+
+
+
+/* секция */
+.section-titel {
+    color:#2E2F42 ;
+}
