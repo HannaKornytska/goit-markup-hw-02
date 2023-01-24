@@ -11,7 +11,9 @@ body {
 .accent  {
     color: #4D5AE5;
 }
-
+.accent-second {
+    color: #2E2F42;
+}
 .site-nav .link  {
     color: #2E2F42;   
 }
@@ -26,15 +28,61 @@ body {
 .site-auth .letter:focus {
     color: #404BBF
 }
-
+/* стан ховер для картинок з посилань */
+.section-site .letter:hover,
+.section-site .letter:focus {
+color: #404BBF;
+}
 /* hero */
-.section-title{
+.section-hero {
+    background-color: #2E2F42;
+}
+.section-title {
+    color: #FFFFFF;
+}
+.button-prime {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
 
+.button-primary:hover,
+.button-primary:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+/* секциї */
+.section-titel {
+    color:#2E2F42 ;
+}
+.section-staff-name,
+.components-item {
+    color:#2E2F42 ;
+}
+.section-staff-block {
+    background-color: #F4F4FD;
+}
+/* список кнопок */
+.button {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
 
 
+  
 
-/* секция */
-.section-titel {
-    color:#2E2F42 ;
+/* футер */
+
+.footer {
+    background-color: #2E2F42;
+}
+.footer-text { 
+    color: #E7E9FC;
+}
+.accent-footer {
+    color:#F4F4FD ;
 }
