@@ -4,11 +4,6 @@
     --color-main-text:#434455;
     --color-accent:#4D5AE5;
     --color-second-text:#2E2F42;
-
-    
-
-
-
 }
 
 
@@ -21,11 +16,13 @@ body {
         line-height: 1.5;
     
 }
+
+
 /* Скидання маркеру списку */
 .list {
     list-style:none ;
 }
-
+/* Скидання підкреслення посилань */
 .link {
     text-decoration: none;
 }
@@ -60,24 +57,39 @@ body {
 }
 .site-nav .nav-link  {
     color: var(--color-second-text);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
    
 }
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus {
     color: var(--color-hover)
 }
- .letter {
+ .letter,
+ .component-text {
     color: var(--color-main-text);
+
+        font-style: normal;
+        letter-spacing: 0.02em;
 }
 .site-auth .letter:hover,
 .site-auth .letter:focus {
     color: var(--color-hover)
 }
-/* стан ховер для картинок з посилань */
-.section-site .letter:hover,
-.section-site .letter:focus {
-color: var(--color-hover)
+
+.phone {
+    color: var(--color-main-text);
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
+
+.site-auth .phone:hover,
+.site-auth .phone:focus {
+    color: var(--color-hover);
+}
+
 /* hero */
 .section-hero {
     background-color: var(--color-second-text);
@@ -93,7 +105,7 @@ color: var(--color-hover)
 .button-primary {
     background-color: var(--color-accent);
     color: var(--background-white-color);
-
+            cursor: pointer;
         font-family: inherit;
             font-weight: 500;
             font-size: 16px;
@@ -106,7 +118,7 @@ color: var(--color-hover)
     background-color: var(--color-hover);
     color:var(--background-white-color)
 }
-/* секциї */
+/* секції */
 .section-titel {
     color:var(--color-second-text) ;
 
@@ -127,14 +139,18 @@ color: var(--color-hover)
         letter-spacing: 0.02em;
 }
 
-.section-staff-block {
+.section-staff-block
+ {
     background-color: #F4F4FD;
+}
+.section-staff {
+    background-color: var(--background-white-color);
 }
 /* список кнопок */
 .button {
     background-color: #F4F4FD;
     color: var(--color-accent);
-
+    cursor: pointer;
     font-family: 'Roboto';
         
         font-weight: 500;
@@ -150,9 +166,6 @@ color: var(--color-hover)
     color:var(--background-white-color)
 }
 
-
-  
-
 /* футер */
 
 .footer {
@@ -160,6 +173,13 @@ color: var(--color-hover)
 }
 .footer-text { 
     color: #E7E9FC;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
 }
 .accent-footer {
     color:#F4F4FD ;
