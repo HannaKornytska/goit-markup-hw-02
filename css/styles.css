@@ -4,6 +4,7 @@
     --color-main-text:#434455;
     --color-accent:#4D5AE5;
     --color-second-text:#2E2F42;
+    --color-second-white: #F4F4FD;
 }
 
 
@@ -54,6 +55,7 @@ body {
         font-size: 18px;
         line-height: 1.3;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 .site-nav .nav-link  {
     color: var(--color-second-text);
@@ -67,12 +69,15 @@ body {
 .site-nav .nav-link:focus {
     color: var(--color-hover)
 }
+
+.address {
+    font-style: normal;
+    letter-spacing: 0.02em;
+
+}
  .letter,
  .component-text {
-    color: var(--color-main-text);
-
-        font-style: normal;
-        letter-spacing: 0.02em;
+    color: var(--color-main-text);   
 }
 .site-auth .letter:hover,
 .site-auth .letter:focus {
@@ -81,8 +86,6 @@ body {
 
 .phone {
     color: var(--color-main-text);
-    font-style: normal;
-    letter-spacing: 0.02em;
 }
 
 .site-auth .phone:hover,
@@ -99,8 +102,10 @@ body {
 
         font-size: 56px;
         line-height: 1.1;
-        text-align: center;
         letter-spacing: 0.02em;
+        text-align: center;
+        
+        
 }
 .button-primary {
     background-color: var(--color-accent);
@@ -119,7 +124,7 @@ body {
     color:var(--background-white-color)
 }
 /* секції */
-.section-titel {
+.section-second-title {
     color:var(--color-second-text) ;
 
 
@@ -127,6 +132,7 @@ body {
         line-height: 1.1;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        text-align: center;
 }
 .section-staff-name,
 .components-item {
@@ -137,18 +143,23 @@ body {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+
 }
 
 .section-staff-block
  {
-    background-color: #F4F4FD;
+    background-color:var(--color-second-white);
 }
 .section-staff {
     background-color: var(--background-white-color);
 }
+
+.section-desc {
+    letter-spacing: 0.02em;
+}
 /* список кнопок */
 .button {
-    background-color: #F4F4FD;
+    background-color: var(--color-second-white);
     color: var(--color-accent);
     cursor: pointer;
     font-family: 'Roboto';
@@ -171,16 +182,10 @@ body {
 .footer {
     background-color: var(--color-second-text);
 }
-.footer-text { 
-    color: #E7E9FC;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 
-}
 .accent-footer {
-    color:#F4F4FD ;
+    color:var(--color-second-white) ;
+}
+.footer-text {
+    color: #E7E9FC;
 }
